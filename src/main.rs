@@ -3,7 +3,7 @@ use std::rc::Rc;
 use ling_parser::{context::Context, lexer::Lexer};
 
 fn main() {
-  let ctx = Rc::new(Context::new("variableName = 10 + 12", "main.ling"));
+  let ctx = Rc::new(Context::new("variableName = 10 + ||12", "main.lg"));
 
   let ret = Lexer::tokenize(ctx);
   match ret {
