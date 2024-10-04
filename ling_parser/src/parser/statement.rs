@@ -1,4 +1,4 @@
-pub mod expression;
+use super::expression;
 
 pub enum Statement {
   Expression(expression::Expression),
