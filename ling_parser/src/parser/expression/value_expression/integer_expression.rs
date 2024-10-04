@@ -2,6 +2,7 @@ use crate::parser::expression::Expression;
 
 use super::ValueExpression;
 
+#[derive(Debug)]
 pub struct IntegerExpession {
   pub val: i32,
 }
