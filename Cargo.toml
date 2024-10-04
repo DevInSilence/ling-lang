@@ -1,0 +1,11 @@
+[package]
+name = "ling"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["ling_parser"]
+resolver = "2"
+
+[dependencies]
+ling_parser = { path = "ling_parser" }
